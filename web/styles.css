@@ -1,0 +1,27 @@
+
+body {
+  font-size: 1rem;
+  font-family: 'Verdana', sans-serif;
+}
+
+header,
+footer,
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+article {
+  margin-bottom: 1rem;
+}
+
+.content-block figure {
+  margin: 0;
+}
+
+.content-block img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,210 @@
+columnSuffix: null
+handle: richtext
+instructions: null
+name: Richtext
+searchable: false
+settings:
+  advancedLinkFields:
+    - target
+    - title
+    - class
+    - id
+  availableTransforms: ''
+  availableVolumes: '*'
+  characterLimit: null
+  css: ".ck.ck-content { display: flex;\r\n        flex-direction: column;\r\n        gap: 1rem;\r\n}\r\n\r\n.ck.ck-content hr,\r\n.ck.ck-content p,\r\n.ck.ck-content :is(h1, h2, h3, h4, h5, h6) {\r\n    margin: 0;\r\n}\r\n\r\n.ck.ck-content ul,\r\n.ck.ck-content ol {\r\n    margin: 0;\r\n    padding-left: 1.2rem;\r\n}\r\n\r\n.ck.ck-content ul,\r\n.ck.ck-content ol {\r\n        margin-bottm: 0.5rem;\r\n    }"
+  cssFile: null
+  defaultTransform: null
+  defaultUploadLocationSubpath: null
+  defaultUploadLocationVolume: null
+  fullGraphqlData: true
+  headingLevels:
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+  imageEntryTypeUid: null
+  imageFieldUid: null
+  imageMode: entries
+  js: null
+  jsFile: null
+  options:
+    __assoc__:
+      -
+        - alignment
+        -
+          __assoc__:
+            -
+              - options
+              -
+                - left
+                - center
+                - right
+      -
+        - code
+        -
+          __assoc__:
+            -
+              - indentSequence
+              - '  '
+      -
+        - fontFamily
+        -
+          __assoc__:
+            -
+              - options
+              -
+                - default
+                - "'system-ui', sans-serif"
+                - "'EB Garamond', Georgia, serif"
+      -
+        - fontSize
+        -
+          __assoc__:
+            -
+              - options
+              -
+                - tiny
+                - small
+                - default
+                - big
+                -
+                  __assoc__:
+                    -
+                      - model
+                      - bigger
+                    -
+                      - title
+                      - Bigger
+                    -
+                      - view
+                      -
+                        __assoc__:
+                          -
+                            - classes
+                            -
+                              - text-bigger
+                          -
+                            - name
+                            - span
+                - huge
+      -
+        - link
+        -
+          __assoc__:
+            -
+              - addTargetToExternalLinks
+              - false
+            -
+              - decorators
+              -
+                __assoc__:
+                  -
+                    - openInNewTab
+                    -
+                      __assoc__:
+                        -
+                          - attributes
+                          -
+                            __assoc__:
+                              -
+                                - rel
+                                - 'noopener noreferrer'
+                              -
+                                - target
+                                - _blank
+                        -
+                          - label
+                          - 'Open in a new tab'
+                        -
+                          - mode
+                          - manual
+      -
+        - style
+        -
+          __assoc__:
+            -
+              - definitions
+              -
+                -
+                  __assoc__:
+                    -
+                      - name
+                      - H1
+                    -
+                      - classes
+                      -
+                        - h2
+                -
+                  __assoc__:
+                    -
+                      - name
+                      - H2
+                    -
+                      - element
+                      - h2
+                    -
+                      - classes
+                      -
+                        - h2
+                -
+                  __assoc__:
+                    -
+                      - name
+                      - H3
+                    -
+                      - classes
+                      -
+                        - h2
+                -
+                  __assoc__:
+                    -
+                      - name
+                      - H1
+                    -
+                      - classes
+                      -
+                        - h2
+                -
+                  __assoc__:
+                    -
+                      - name
+                      - H5
+                    -
+                      - classes
+                      -
+                        - h2
+                -
+                  __assoc__:
+                    -
+                      - name
+                      - H6
+                    -
+                      - classes
+                      -
+                        - h2
+  parseEmbeds: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  toolbar:
+    - heading
+    - '|'
+    - style
+    - alignment
+    - bold
+    - italic
+    - link
+    - insertImage
+    - mediaEmbed
+    - bulletedList
+    - numberedList
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

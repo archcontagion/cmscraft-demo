@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: de
+name: cmscraft
+primary: true
+siteGroup: 1f590305-542f-4331-bf23-6c36dedbfe5e # cmscraft
+sortOrder: 1

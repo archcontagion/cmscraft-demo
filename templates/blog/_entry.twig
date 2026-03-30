@@ -1,0 +1,46 @@
+{% extends '_layout' %}
+
+{# Load the attached image: #}
+{% set featureImage = entry.featureImage.eagerly().one() %}
+
+{# Load attached topics: #}
+{% set topics = entry.postCategories.all() %}
+
+{# Load content blocks: #}
+{% set postContent = entry.postContent.all() %}
+
+
+{% block content %}
+<a href="{{ siteUrl('blog') }}">Back to blog</a>
+<article>
+<div class="post-content">
+  {% for contentBlock in postContent %}
+    {# Memoize the block type’s handle so we can use it later: #}
+    {% set blockType = contentBlock.type.handle %}
+
+    {# Switch what is displayed based on the `type`: #}
+    {% if blockType == 'richtext' %}
+      <div class="content-block text">
+        {{ contentBlock.richtext | md }}
+      </div>
+    {% elseif blockType == 'image' %}
+      {% set image = contentBlock.image.one() %}
+
+      <div class="content-block image">
+        {{ image.getImg('thumbnail') }}
+      </div>
+    {% else %}
+      <div class="content-block unsupported">
+        <p>Unsupported block type: <code>{{ blockType }}</code></p>
+      </div>
+    {% endif %}
+  {% else %}
+    {# `for` tags also support an `else` block for when there’s no content! #}
+
+    <div class="content-block empty">
+      <p>This post has no content!</p>
+    </div>
+  {% endfor %}
+</div>
+</article>
+{% endblock %}

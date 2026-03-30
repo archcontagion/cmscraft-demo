@@ -1,0 +1,9 @@
+baseUrl: $CMSCRAFT2_URL
+enabled: '1'
+handle: cmscraft2
+hasUrls: true
+language: de
+name: cmscraft2
+primary: false
+siteGroup: 41769642-9695-40c4-ab58-2fc3de9f5cce # cmscraft2
+sortOrder: 2

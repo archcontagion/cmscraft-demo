@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: cd6a85b0-effe-477c-95ae-9ed12e2e63fd # About
+handle: about
+maxAuthors: 1
+name: About
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  34362876-6b96-4888-81fa-bd811d2dde4a: # cmscraft
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/about.twig
+    uriFormat: about
+type: single

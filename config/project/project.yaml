@@ -1,0 +1,53 @@
+dateModified: 1774874475
+email:
+  fromEmail: andrew.geier@w3-digitalbrands.com
+  fromName: cmscraft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@uploads'
+meta:
+  __names__:
+    1f590305-542f-4331-bf23-6c36dedbfe5e: cmscraft # cmscraft
+    3f9477c1-3bad-471e-ae44-780937f1f04d: Text # Text
+    6bf17823-b904-409b-a803-edf64673fd2d: 'Post Content' # Post Content
+    44aac75d-2e66-4b49-a4fe-560ab87622b8: Richtext # Richtext
+    44abf3ff-a739-403a-b0bb-a08efa0ac9c9: Post # Post
+    87dc3cc2-7429-4625-9de4-84a0f9dfdcf5: navigationConfig # navigationConfig
+    109a32e9-dc00-4446-803c-d8d5364aebb0: Image # Image
+    315a062e-bf1e-41f3-b023-a4b9215dee2a: Images # Images
+    948d320d-de3a-444d-ab16-35057a0ff09f: About # About
+    58507fb3-d849-450f-aa51-c93ca516eba4: Thumbnail # Thumbnail
+    34362876-6b96-4888-81fa-bd811d2dde4a: cmscraft # cmscraft
+    41769642-9695-40c4-ab58-2fc3de9f5cce: cmscraft2 # cmscraft2
+    a5fd29d2-1160-4212-a6da-b8ae1c9cdc1a: Blog # Blog
+    b0ea8749-8ffc-41b0-91a5-1dc4bca1b03a: Richtext # Richtext
+    b9b0a3f6-ca51-4fc4-a79e-902f0e3506c7: cmscraft2 # cmscraft2
+    c4ea4bc3-2094-4616-8b92-c6e86e173ee0: Topics # Topics
+    cd6a85b0-effe-477c-95ae-9ed12e2e63fd: About # About
+    d6a68e47-a676-4b58-b5a1-9561b8187925: 'Post Categories' # Post Categories
+    e6c3929a-1356-4e65-bb07-2f73df10c832: 'Public Schema' # Public Schema
+    e82e8766-6e04-4828-aed7-e9b6c87df540: Image # Image
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.0.0.1
+system:
+  edition: solo
+  live: true
+  name: cmscraft
+  schemaVersion: 5.9.0.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
