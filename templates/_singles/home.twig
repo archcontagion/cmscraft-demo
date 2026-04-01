@@ -2,8 +2,7 @@
 
 {% block content %}
 
-  <div class="about">
-    <h1>{{ entry.title }}</h1>
+  <div class="home">
     {% for sectionEntry in entry.sections.all() %}
       {% include '_components/sectionComponent.twig' with {
         sectionEntry: sectionEntry

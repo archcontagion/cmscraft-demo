@@ -1,0 +1,20 @@
+{% if bodyContentEntry.heroComponent is defined and bodyContentEntry.heroComponent %}
+  {% set heroComponentContent = bodyContentEntry.heroComponent %}
+  {% set heroImageAsset = heroComponentContent.heroImage ? heroComponentContent.heroImage.one() : null %}
+  <div class="home__hero-content">
+    <div class="home__hero-content-text">
+      {% if heroComponentContent.heroSubline is defined and heroComponentContent.heroSubline %}
+        <span>{{ heroComponentContent.heroSubline }}</span>
+      {% endif %}
+      {% if heroComponentContent.heroTitle is defined and heroComponentContent.heroTitle %}
+        <h1>{{ heroComponentContent.heroTitle }}</h1>
+      {% endif %}
+    </div>
+
+    <div class="home__hero-image">
+      {% if heroImageAsset %}
+        {{ heroImageAsset.getImg('thumbnail') }}
+      {% endif %}
+    </div>
+  </div>
+{% endif %}

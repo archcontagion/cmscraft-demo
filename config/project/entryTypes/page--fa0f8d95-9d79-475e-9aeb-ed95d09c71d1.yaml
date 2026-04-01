@@ -2,7 +2,7 @@ allowLineBreaksInTitles: false
 color: null
 description: null
 fieldLayouts:
-  17a68bea-106d-4d73-8422-cb32f6ca9644:
+  4a449447-2648-48dc-a086-1d78b91a0849:
     cardThumbAlignment: end
     tabs:
       -
@@ -13,7 +13,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2026-03-30T11:51:05+00:00'
+            dateAdded: '2026-04-01T12:23:44+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -32,12 +32,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: b1f12dbd-64e3-4378-8f61-661ecb58fddc
+            uid: 708ef215-ade3-4898-8fe6-fe59d9ba75aa
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2026-04-01T11:28:27+00:00'
+            dateAdded: '2026-04-01T12:25:04+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
@@ -48,18 +48,18 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 88086c63-086f-46a4-aacf-d659bd423fd0
+            uid: 7fa38c04-c5f5-487c-b14f-597f14af394d
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c0557645-5edd-41cf-a028-d9c86ec5bc87
+        uid: 0370d84c-4978-4390-a258-2b67ff5944fb
         userCondition: null
     thumbFieldKey: null
-handle: about
+handle: page
 hasTitleField: true
 icon: null
-name: About
+name: Page
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

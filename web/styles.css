@@ -4,6 +4,123 @@ body {
   font-family: 'Verdana', sans-serif;
 }
 
+.mt-xxs {
+  margin-top: 0.25rem;
+}
+
+.mt-xs {
+  margin-top: 1rem;
+}
+
+.mt-sm {
+  margin-top: 1.5rem;
+}
+
+.mt-md {
+  margin-top: 2rem;
+}
+
+.mt-lg {
+  margin-top: 3rem;
+}
+
+.mt-xl {
+  margin-top: 4rem;
+}
+
+.mt-xxl {
+  margin-top: 5rem;
+}
+
+.mb-xxs {
+  margin-bottom: 0.25rem;
+}
+
+.mb-xs {
+  margin-bottom: 1rem;
+}
+
+.mb-sm {
+  margin-bottom: 1.5rem;
+}
+
+.mb-md {
+  margin-bottom: 2rem;
+}
+
+.mb-lg {
+  margin-bottom: 3rem;
+}
+
+.mb-xl {
+  margin-bottom: 4rem;
+}
+
+.mb-xxl {
+  margin-bottom: 5rem;
+}
+
+.pt-xxs {
+  padding-top: 0.25rem;
+}
+
+.pt-xs {
+  padding-top: 1rem;
+}
+
+.pt-sm {
+  padding-top: 1.5rem;
+}
+
+.pt-md {
+  padding-top: 2rem;
+}
+
+.pt-lg {
+  padding-top: 3rem;
+}
+
+.pt-xl {
+  padding-top: 4rem;
+}
+
+.pt-xxl {
+  padding-top: 5rem;
+}
+
+.pb-xxs {
+  padding-bottom: 0.25rem;
+}
+
+.pb-xs {
+  padding-bottom: 1rem;
+}
+
+.pb-sm {
+  padding-bottom: 1.5rem;
+}
+
+.pb-md {
+  padding-bottom: 2rem;
+}
+
+.pb-lg {
+  padding-bottom: 3rem;
+}
+
+.pb-xl {
+  padding-bottom: 4rem;
+}
+
+.pb-xxl {
+  padding-bottom: 5rem;
+}
+
+section {
+  display:flex;
+}
+
+
 header,
 footer,
 main {
@@ -11,6 +128,10 @@ main {
   margin: 0 auto;
   padding: 0 20px;
   position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin:0;
 }
 
 article {
@@ -24,4 +145,55 @@ article {
 .content-block img {
   width: 100%;
   height: auto;
+}
+
+.home__hero-content {
+  width: 100%;
+  height: 100vh;
+  position:relative;
+}
+
+.home__hero-content-text  {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  color:white;
+  z-index:1;
+}
+.home__hero-image img {
+  width:100%;
+  height:100vh;
+  object-fit: cover;
+}
+
+
+.home__column-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+}
+
+
+footer ul,header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: bottom;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 4rem;
 }

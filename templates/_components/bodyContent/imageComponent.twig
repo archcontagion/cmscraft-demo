@@ -1,0 +1,8 @@
+{% if bodyContentEntry.image is defined %}
+  {% set imageAsset = bodyContentEntry.image.one() %}
+  {% if imageAsset %}
+    <div class="home__image">
+      {{ imageAsset.getImg('thumbnail') }}
+    </div>
+  {% endif %}
+{% endif %}

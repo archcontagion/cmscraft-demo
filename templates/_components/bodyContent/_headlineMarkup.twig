@@ -1,0 +1,20 @@
+{# Expects: headlineField — ContentBlock value with headlinetitle, headlinetag, headlineclass. #}
+{% if headlineField is defined and headlineField and headlineField.headlinetitle %}
+  {% set headlineTagName = headlineField.headlinetag ?? 'h2' %}
+  {% set headlineClassToken = headlineField.headlineclass ?? '' %}
+  {% if headlineTagName == 'h1' %}
+    <h1 class="{{ headlineClassToken }}">{{ headlineField.headlinetitle }}</h1>
+  {% elseif headlineTagName == 'h2' %}
+    <h2 class="{{ headlineClassToken }}">{{ headlineField.headlinetitle }}</h2>
+  {% elseif headlineTagName == 'h3' %}
+    <h3 class="{{ headlineClassToken }}">{{ headlineField.headlinetitle }}</h3>
+  {% elseif headlineTagName == 'h4' %}
+    <h4 class="{{ headlineClassToken }}">{{ headlineField.headlinetitle }}</h4>
+  {% elseif headlineTagName == 'h5' %}
+    <h5 class="{{ headlineClassToken }}">{{ headlineField.headlinetitle }}</h5>
+  {% elseif headlineTagName == 'h6' %}
+    <h6 class="{{ headlineClassToken }}">{{ headlineField.headlinetitle }}</h6>
+  {% else %}
+    <h2 class="{{ headlineClassToken }}">{{ headlineField.headlinetitle }}</h2>
+  {% endif %}
+{% endif %}

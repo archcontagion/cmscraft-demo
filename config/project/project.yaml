@@ -1,4 +1,4 @@
-dateModified: 1774874475
+dateModified: 1775054707
 email:
   fromEmail: andrew.geier@w3-digitalbrands.com
   fromName: cmscraft
@@ -13,26 +13,59 @@ fs:
     url: '@uploads'
 meta:
   __names__:
+    0f1aef5b-e43c-47ac-8e2c-2000dff69367: Header # Header
+    0ffeee12-6676-484a-81bb-f63f1309bbef: 'Margin Top' # Margin Top
     1f590305-542f-4331-bf23-6c36dedbfe5e: cmscraft # cmscraft
-    3f9477c1-3bad-471e-ae44-780937f1f04d: Text # Text
+    2a52cf98-9c22-469e-92f8-68b90e250f28: Summary # Summary
+    03e2146b-da29-4a1d-8d92-e30d1bb6b1b6: 'Nuxt Schema' # Nuxt Schema
+    06a93449-201b-4a36-a773-247a857f3274: 'Padding Top' # Padding Top
     6bf17823-b904-409b-a803-edf64673fd2d: 'Post Content' # Post Content
-    44aac75d-2e66-4b49-a4fe-560ab87622b8: Richtext # Richtext
+    7a63fee9-946e-4cf5-90f4-8409f1ff9ba7: 'Nav Link' # Nav Link
+    8c384374-7a9f-4f42-acfc-5d954fdf6166: 'Column Span' # Column Span
+    9cffe5c0-64a9-4bea-a1b0-9e0bfb298278: 'Section Component' # Section Component
+    20f94c9d-f3f8-4ec5-8ce9-03a604124241: Headings # Headings
+    034e877f-9179-4f1e-be52-3601cfc5e634: buttonTitle # buttonTitle
+    44aac75d-2e66-4b49-a4fe-560ab87622b8: 'Richtext Component' # Richtext Component
     44abf3ff-a739-403a-b0bb-a08efa0ac9c9: Post # Post
-    87dc3cc2-7429-4625-9de4-84a0f9dfdcf5: navigationConfig # navigationConfig
+    44fe8f78-5596-45c3-b170-9766404360d9: 'Navigation Footer' # Navigation Footer
+    66b0636d-277e-4b66-a8f1-e69b63dd67a2: 'Body Content' # Body Content
+    87dc3cc2-7429-4625-9de4-84a0f9dfdcf5: 'Navigation Header' # Navigation Header
+    97d86509-405d-4603-a33d-cd1c23b6244f: 'Hero Component Container' # Hero Component Container
     109a32e9-dc00-4446-803c-d8d5364aebb0: Image # Image
     315a062e-bf1e-41f3-b023-a4b9215dee2a: Images # Images
+    554b0a4b-ddbd-43ff-8ace-9a24d6384004: 'Columns Component Container' # Columns Component Container
+    704ad204-ae3c-4fd3-bc2d-3a5540b55077: Home # Home
     948d320d-de3a-444d-ab16-35057a0ff09f: About # About
+    1050f123-474b-4870-8754-d56d447e2fb3: 'Margin Bottom' # Margin Bottom
+    6421b7fb-ba73-4724-a2ba-ce7f91f86b9c: 'Column Container' # Column Container
     58507fb3-d849-450f-aa51-c93ca516eba4: Thumbnail # Thumbnail
+    6127772b-9e72-432d-86dd-5068bc434055: 'Hero Component' # Hero Component
     34362876-6b96-4888-81fa-bd811d2dde4a: cmscraft # cmscraft
+    36245794-d41a-46bf-85e0-1ef315e2f7e8: headlineTitle # headlineTitle
     41769642-9695-40c4-ab58-2fc3de9f5cce: cmscraft2 # cmscraft2
     a5fd29d2-1160-4212-a6da-b8ae1c9cdc1a: Blog # Blog
+    af94e5c0-8ff5-4bc4-943e-d24020d8d0c2: 'Column Component  Container' # Column Component  Container
     b0ea8749-8ffc-41b0-91a5-1dc4bca1b03a: Richtext # Richtext
     b9b0a3f6-ca51-4fc4-a79e-902f0e3506c7: cmscraft2 # cmscraft2
+    b2631de8-f889-4404-9074-0ec0edc1609e: headlineClass # headlineClass
+    b6226d82-f0fc-4268-9272-ba510d15ecc0: Button # Button
+    bb2ee5b5-991a-4776-8193-12eb0689f3ff: 'Navigation Link Component' # Navigation Link Component
+    c2e79d5a-b912-4d90-a10e-005053167e5d: Footer # Footer
     c4ea4bc3-2094-4616-8b92-c6e86e173ee0: Topics # Topics
     cd6a85b0-effe-477c-95ae-9ed12e2e63fd: About # About
+    cf8392e3-23f3-4ab6-b7c0-af69d320f777: Sections # Sections
     d6a68e47-a676-4b58-b5a1-9561b8187925: 'Post Categories' # Post Categories
+    d34e11f2-43a8-4d07-a2ab-4553faec84bb: Home # Home
+    dbfb84e6-4542-40a4-91ef-e3cddb8bb8d1: 'Padding Bottom' # Padding Bottom
+    dc5bd793-99bb-4d24-a48e-83851004ce70: 'Hero Title' # Hero Title
     e6c3929a-1356-4e65-bb07-2f73df10c832: 'Public Schema' # Public Schema
-    e82e8766-6e04-4828-aed7-e9b6c87df540: Image # Image
+    e82e8766-6e04-4828-aed7-e9b6c87df540: 'Image Component Container' # Image Component Container
+    eecfd467-4b9a-42f8-9754-858ee8503566: headlineTag # headlineTag
+    f1c2be2d-ef13-4cb1-898e-736533b45594: Page # Page
+    f1e5b7f6-d855-4210-925a-115e991b5632: 'Headline Component Container' # Headline Component Container
+    f4b48271-6d94-4700-b715-220ba0ea8a01: subline # subline
+    fa0f8d95-9d79-475e-9aeb-ed95d09c71d1: Page # Page
+    fb7b095e-70aa-447a-90c2-c3f84362a7c6: 'Headline Component' # Headline Component
 plugins:
   ckeditor:
     edition: standard

@@ -1,0 +1,18 @@
+{# Outputs a single resolved site URL string for a Link field value (or empty). #}
+{% set resolvedNavLinkUrl = '' %}
+{% if navLink %}
+  {% set resolvedNavLinkUrl = navLink.url %}
+  {% if resolvedNavLinkUrl == '' and navLink.element is defined and navLink.element %}
+    {% set resolvedNavLinkUrl = navLink.element.url ?? '' %}
+  {% endif %}
+  {% if resolvedNavLinkUrl == '' and navLink.element is defined and navLink.element and navLink.element.isHomepage %}
+    {% set resolvedNavLinkUrl = siteUrl('') %}
+  {% endif %}
+  {% if resolvedNavLinkUrl is not empty
+    and resolvedNavLinkUrl starts with '/'
+    and not (resolvedNavLinkUrl starts with '//') %}
+    {% set pathSegment = resolvedNavLinkUrl == '/' ? '' : resolvedNavLinkUrl|trim('/') %}
+    {% set resolvedNavLinkUrl = siteUrl(pathSegment) %}
+  {% endif %}
+{% endif %}
+{{- resolvedNavLinkUrl -}}

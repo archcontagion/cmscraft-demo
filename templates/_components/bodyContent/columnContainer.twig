@@ -1,0 +1,33 @@
+{% if bodyContentEntry.columnContainer is defined and bodyContentEntry.columnContainer %}
+  <div class="home__column-container">
+    {% for columnEntry in bodyContentEntry.columnContainer.all() %}
+      <div class="home__column">
+        {% if columnEntry.headline is defined and columnEntry.headline %}
+          <div class="home__column-headline">
+            {% include '_components/bodyContent/_headlineMarkup.twig' with {
+              headlineField: columnEntry.headline
+            } only %}
+          </div>
+        {% endif %}
+        {% set columnImageAsset = columnEntry.image is defined ? columnEntry.image.one() : null %}
+        {% if columnImageAsset %}
+          <div class="home__column-image">
+            {{ columnImageAsset.getImg('thumbnail') }}
+          </div>
+        {% endif %}
+        {% if columnEntry.richtext is defined and columnEntry.richtext %}
+          <div class="home__column-text">
+            {{ columnEntry.richtext | md }}
+          </div>
+        {% endif %}
+        {% if columnEntry.button is defined and columnEntry.button %}
+          {% set buttonNavLink = columnEntry.button.navLink ?? null %}
+          {% set buttonUrl = include('_globals/_navLinkHref.twig', { navLink: buttonNavLink }, false)|trim %}
+          {% if buttonUrl and columnEntry.button.buttonTitle is defined %}
+            <a href="{{ buttonUrl }}" class="button">{{ columnEntry.button.buttonTitle }}</a>
+          {% endif %}
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

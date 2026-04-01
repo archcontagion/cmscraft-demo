@@ -1,0 +1,7 @@
+{% if bodyContentEntry.headline is defined and bodyContentEntry.headline %}
+  <div class="home__headline">
+    {% include '_components/bodyContent/_headlineMarkup.twig' with {
+      headlineField: bodyContentEntry.headline
+    } only %}
+  </div>
+{% endif %}

@@ -1,6 +1,10 @@
-isPublic: true
-name: 'Public Schema'
+isPublic: false
+name: 'Nuxt Schema'
 scope:
+  - 'sites.34362876-6b96-4888-81fa-bd811d2dde4a:read' # cmscraft
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
   - 'sections.948d320d-de3a-444d-ab16-35057a0ff09f:read' # About
   - 'sections.704ad204-ae3c-4fd3-bc2d-3a5540b55077:read' # Home
   - 'sections.a5fd29d2-1160-4212-a6da-b8ae1c9cdc1a:read' # Blog

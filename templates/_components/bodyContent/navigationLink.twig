@@ -1,0 +1,6 @@
+{% if bodyContentEntry.navLink is defined and bodyContentEntry.navLink %}
+  {% set navigationUrl = include('_globals/_navLinkHref.twig', { navLink: bodyContentEntry.navLink }, false)|trim %}
+  {% if navigationUrl %}
+    <a href="{{ navigationUrl }}">{{ bodyContentEntry.title }}</a>
+  {% endif %}
+{% endif %}

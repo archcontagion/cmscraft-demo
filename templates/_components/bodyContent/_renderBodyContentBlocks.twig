@@ -1,0 +1,7 @@
+{# Expects: bodyContentBlocks — iterable of matrix / nested entry blocks. #}
+{% for bodyContentEntry in bodyContentBlocks %}
+  {% set bodyContentComponentPath = '_components/bodyContent/' ~ bodyContentEntry.type.handle ~ '.twig' %}
+  {% include [bodyContentComponentPath, '_components/bodyContent/_fallback.twig'] with {
+    bodyContentEntry: bodyContentEntry
+  } only %}
+{% endfor %}

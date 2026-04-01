@@ -1,0 +1,45 @@
+columnSuffix: null
+handle: navigationHeader
+instructions: null
+name: 'Navigation Header'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - bb2ee5b5-991a-4776-8193-12eb0689f3ff # Navigation Link Component
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  siteSettings:
+    __assoc__:
+      -
+        - 34362876-6b96-4888-81fa-bd811d2dde4a # cmscraft
+        -
+          __assoc__:
+            -
+              - template
+              - _globals/headerNavigation.twig
+      -
+        - b9b0a3f6-ca51-4fc4-a79e-902f0e3506c7 # cmscraft2
+        -
+          __assoc__:
+            -
+              - template
+              - _globals/headerNavigation.twig
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

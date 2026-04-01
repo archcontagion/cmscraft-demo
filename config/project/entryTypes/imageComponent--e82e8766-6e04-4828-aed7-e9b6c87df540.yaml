@@ -1,5 +1,5 @@
 allowLineBreaksInTitles: false
-color: yellow
+color: lime
 description: null
 fieldLayouts:
   340aabaf-9c51-4146-adb1-07bcea32dba0:
@@ -9,34 +9,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2026-03-30T09:19:36+00:00'
-            disabled: false
-            elementCondition: null
-            id: null
-            inputType: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            readonly: false
-            required: true
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: d9a65bec-2046-4676-a15e-36d6bbe1b2e8
-            userCondition: null
-            warning: null
-            width: 100
-          -
             dateAdded: '2026-03-30T10:14:50+00:00'
             editCondition: null
             elementCondition: null
@@ -44,7 +16,7 @@ fieldLayouts:
             fieldUid: 109a32e9-dc00-4446-803c-d8d5364aebb0 # Image
             handle: null
             instructions: null
-            label: null
+            label: 'Image Component'
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -56,10 +28,10 @@ fieldLayouts:
         uid: 3c465dcf-7a35-4952-8e71-ab605ec246b4
         userCondition: null
     thumbFieldKey: null
-handle: image
-hasTitleField: true
+handle: imageComponent
+hasTitleField: false
 icon: image
-name: Image
+name: 'Image Component Container'
 showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null

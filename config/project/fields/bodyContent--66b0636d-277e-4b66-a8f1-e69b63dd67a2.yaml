@@ -1,0 +1,69 @@
+columnSuffix: null
+handle: bodyContent
+instructions: null
+name: 'Body Content'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - e82e8766-6e04-4828-aed7-e9b6c87df540 # Image Component Container
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - f1e5b7f6-d855-4210-925a-115e991b5632 # Headline Component Container
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 554b0a4b-ddbd-43ff-8ace-9a24d6384004 # Columns Component Container
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 44aac75d-2e66-4b49-a4fe-560ab87622b8 # Richtext Component
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - bb2ee5b5-991a-4776-8193-12eb0689f3ff # Navigation Link Component
+        -
+          - group
+          - General
+    -
+      __assoc__:
+        -
+          - uid
+          - 97d86509-405d-4603-a33d-cd1c23b6244f # Hero Component Container
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

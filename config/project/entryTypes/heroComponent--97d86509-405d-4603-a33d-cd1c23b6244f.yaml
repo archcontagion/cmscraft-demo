@@ -2,36 +2,36 @@ allowLineBreaksInTitles: false
 color: lime
 description: null
 fieldLayouts:
-  88a11181-b668-4f24-ae55-bac55c41d527:
+  78deed83-b1c2-4782-962f-0d846a99b801:
     cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            dateAdded: '2026-03-30T09:33:47+00:00'
+            dateAdded: '2026-03-31T14:38:36+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: b0ea8749-8ffc-41b0-91a5-1dc4bca1b03a # Richtext
+            fieldUid: 6127772b-9e72-432d-86dd-5068bc434055 # Hero Component
             handle: null
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 816445e4-a458-4cf2-9d3f-c346500eab65
+            uid: e81ab90a-ee87-47bb-9b72-66792343fbb3
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c204ece0-8d2c-4a79-8f30-733d561296b8
+        uid: 37a2ef6c-af17-44c4-9236-8f0b672634b6
         userCondition: null
     thumbFieldKey: null
-handle: richtext
+handle: heroComponent
 hasTitleField: false
-icon: text
-name: 'Richtext Component'
+icon: null
+name: 'Hero Component Container'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

@@ -1,0 +1,16 @@
+{% set footerGlobalSet = craft.app.globals.getSetByHandle('footer') %}
+{% set footerNavigationEntries = footerGlobalSet ? footerGlobalSet.navigationFooter.all() : [] %}
+
+<nav>
+  <ul>
+    {% for footerNavigationEntry in footerNavigationEntries %}
+      {% set footerNavLink = footerNavigationEntry.navLink ?? null %}
+      {% set footerNavigationUrl = include('_globals/_navLinkHref.twig', { navLink: footerNavLink }, false)|trim %}
+      {% if footerNavigationUrl %}
+        <li>
+          <a href="{{ footerNavigationUrl }}">{{ footerNavigationEntry.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

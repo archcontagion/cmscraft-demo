@@ -1,0 +1,17 @@
+{# Expects: sectionEntry — sectionComponent matrix block with bodyContent and spacing fields. #}
+{% set paddingTopToken = sectionEntry.paddingTop ?? 'none' %}
+{% set paddingBottomToken = sectionEntry.paddingBottom ?? 'none' %}
+{% set marginTopToken = sectionEntry.marginTop ?? 'none' %}
+{% set marginBottomToken = sectionEntry.marginBottom ?? 'none' %}
+<section
+  class="page-section"
+  aria-label="{{ sectionEntry.title }}"
+>
+<div class="page-section__content-container  mt-{{ marginTopToken }} mb-{{ marginBottomToken }} pt-{{ paddingTopToken }} pb-{{ paddingBottomToken }}">
+  <div class="page-section__content">
+    {% include '_components/bodyContent/_renderBodyContentBlocks.twig' with {
+      bodyContentBlocks: sectionEntry.bodyContent.all()
+    } only %}
+  </div>
+  </div>
+</section>

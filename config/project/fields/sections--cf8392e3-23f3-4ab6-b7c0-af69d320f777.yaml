@@ -1,10 +1,10 @@
 columnSuffix: null
-handle: postContent
+handle: sections
 instructions: null
-name: 'Post Content'
-searchable: true
+name: Sections
+searchable: false
 settings:
-  createButtonLabel: 'Add Block'
+  createButtonLabel: null
   defaultIndexViewMode: cards
   enableVersioning: false
   entryTypes:
@@ -12,18 +12,18 @@ settings:
       __assoc__:
         -
           - uid
-          - 44aac75d-2e66-4b49-a4fe-560ab87622b8 # Richtext Component
+          - 9cffe5c0-64a9-4bea-a1b0-9e0bfb298278 # Section Component
         -
           - group
           - General
   includeTableView: false
   maxEntries: null
-  minEntries: 1
-  pageSize: null
+  minEntries: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
-  viewMode: blocks
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

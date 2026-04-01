@@ -1,0 +1,15 @@
+{% extends '_layout' %}
+
+
+
+{% block content %}
+<a href="{{ siteUrl('/') }}">Back to home</a>
+<article>
+  <h1>{{ entry.title }}</h1>
+  {% for sectionEntry in entry.sections.all() %}
+    {% include '_components/sectionComponent.twig' with {
+      sectionEntry: sectionEntry
+    } only %}
+  {% endfor %}
+</article>
+{% endblock %}

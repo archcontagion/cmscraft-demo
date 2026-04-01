@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: navigationconfig
+handle: subline
 instructions: null
-name: navigationConfig
+name: subline
 searchable: false
 settings:
   byteLimit: null

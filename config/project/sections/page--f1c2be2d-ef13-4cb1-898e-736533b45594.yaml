@@ -1,0 +1,29 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: fa0f8d95-9d79-475e-9aeb-ed95d09c71d1 # Page
+handle: page
+maxAuthors: 1
+name: Page
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  34362876-6b96-4888-81fa-bd811d2dde4a: # cmscraft
+    enabledByDefault: true
+    hasUrls: true
+    template: page/_entry.twig
+    uriFormat: 'page/{slug}'
+  b9b0a3f6-ca51-4fc4-a79e-902f0e3506c7: # cmscraft2
+    enabledByDefault: true
+    hasUrls: true
+    template: page/_entry.twig
+    uriFormat: 'page/{slug}'
+structure:
+  maxLevels: null
+  uid: 1eb46194-7a1f-4903-b7bf-c58ad8ca5cd9
+type: structure

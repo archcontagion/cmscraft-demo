@@ -1,0 +1,16 @@
+{% set headerGlobalSet = craft.app.globals.getSetByHandle('header') %}
+{% set headerNavigationEntries = headerGlobalSet ? headerGlobalSet.navigationHeader.all() : [] %}
+
+<nav>
+  <ul>
+    {% for headerNavigationEntry in headerNavigationEntries %}
+      {% set headerNavLink = headerNavigationEntry.navLink ?? null %}
+      {% set headerNavigationUrl = include('_globals/_navLinkHref.twig', { navLink: headerNavLink }, false)|trim %}
+      {% if headerNavigationUrl %}
+        <li>
+          <a href="{{ headerNavigationUrl }}">{{ headerNavigationEntry.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

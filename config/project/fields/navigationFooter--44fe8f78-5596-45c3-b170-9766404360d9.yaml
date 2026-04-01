@@ -1,10 +1,10 @@
 columnSuffix: null
-handle: postContent
+handle: navigationFooter
 instructions: null
-name: 'Post Content'
-searchable: true
+name: 'Navigation Footer'
+searchable: false
 settings:
-  createButtonLabel: 'Add Block'
+  createButtonLabel: null
   defaultIndexViewMode: cards
   enableVersioning: false
   entryTypes:
@@ -12,18 +12,18 @@ settings:
       __assoc__:
         -
           - uid
-          - 44aac75d-2e66-4b49-a4fe-560ab87622b8 # Richtext Component
+          - bb2ee5b5-991a-4776-8193-12eb0689f3ff # Navigation Link Component
         -
           - group
           - General
   includeTableView: false
   maxEntries: null
-  minEntries: 1
-  pageSize: null
+  minEntries: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
-  viewMode: blocks
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

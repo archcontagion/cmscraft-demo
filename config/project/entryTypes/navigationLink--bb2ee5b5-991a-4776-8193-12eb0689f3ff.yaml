@@ -1,8 +1,8 @@
 allowLineBreaksInTitles: false
-color: null
+color: lime
 description: null
 fieldLayouts:
-  17a68bea-106d-4d73-8422-cb32f6ca9644:
+  5c344915-876f-4ecb-82b4-47c20d04d69b:
     cardThumbAlignment: end
     tabs:
       -
@@ -13,7 +13,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2026-03-30T11:51:05+00:00'
+            dateAdded: '2026-04-01T14:45:07+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -32,34 +32,34 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: b1f12dbd-64e3-4378-8f61-661ecb58fddc
+            uid: 635a88e2-d4ac-48bc-8f8e-4f1f56ba48fe
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2026-04-01T11:28:27+00:00'
+            dateAdded: '2026-03-31T09:16:04+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: cf8392e3-23f3-4ab6-b7c0-af69d320f777 # Sections
+            fieldUid: 7a63fee9-946e-4cf5-90f4-8409f1ff9ba7 # Nav Link
             handle: null
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 88086c63-086f-46a4-aacf-d659bd423fd0
+            uid: 783c67f1-aed2-4e12-9962-159eaae8cfce
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c0557645-5edd-41cf-a028-d9c86ec5bc87
+        uid: 21d4a7c0-10ed-42bb-8834-b5b3e7133fbd
         userCondition: null
     thumbFieldKey: null
-handle: about
+handle: navigationLink
 hasTitleField: true
 icon: null
-name: About
+name: 'Navigation Link Component'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

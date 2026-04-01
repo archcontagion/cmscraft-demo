@@ -1,0 +1,93 @@
+columnSuffix: null
+handle: headline
+instructions: null
+name: 'Headline Component'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 61710e4f-a0d0-4725-8986-5bb6589bd310
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - 97b1a2ea-2aca-4f9b-b788-e495fef0ed4a
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-03-31T14:31:55+00:00'
+                            9:
+                              - uid
+                              - a7b0097c-3da9-45f3-8f1e-cf19aa51fecd
+                            12:
+                              - fieldUid
+                              - 36245794-d41a-46bf-85e0-1ef315e2f7e8 # headlineTitle
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-03-31T14:31:55+00:00'
+                            9:
+                              - uid
+                              - 9181c68a-6ae3-41b1-bb94-fc4d3f80e462
+                            12:
+                              - fieldUid
+                              - eecfd467-4b9a-42f8-9754-858ee8503566 # headlineTag
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-03-31T14:31:55+00:00'
+                            9:
+                              - uid
+                              - 74ebfd4b-fa16-4bf9-9230-75ba4b546b46
+                            12:
+                              - fieldUid
+                              - b2631de8-f889-4404-9074-0ec0edc1609e # headlineClass
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

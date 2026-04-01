@@ -1,0 +1,5 @@
+{% if bodyContentEntry.richtext is defined and bodyContentEntry.richtext %}
+  <div class="home__richtext">
+    {{ bodyContentEntry.richtext | md }}
+  </div>
+{% endif %}

@@ -10,6 +10,7 @@ database:
     type: mysql
     version: "8.0"
 use_dns_when_possible: true
+share_provider_args: --domain=rattler-relaxing-usefully.ngrok-free.app
 composer_version: "2"
 web_environment: []
 corepack_enable: false

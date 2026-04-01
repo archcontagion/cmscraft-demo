@@ -1,0 +1,73 @@
+columnSuffix: null
+handle: button
+instructions: null
+name: Button
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - f1f23add-1d9c-4574-84f8-fce82e52bcad
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    0:
+                      - name
+                      - Content
+                    1:
+                      - uid
+                      - d2615d91-7c43-4978-8ac0-bfd65e23db27
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-03-31T10:14:40+00:00'
+                            9:
+                              - uid
+                              - fb019a2d-f4a1-4229-97da-bce85fcf22c8
+                            12:
+                              - fieldUid
+                              - 034e877f-9179-4f1e-be52-3601cfc5e634 # buttonTitle
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - width
+                              - 100
+                            8:
+                              - dateAdded
+                              - '2026-03-31T09:51:33+00:00'
+                            9:
+                              - uid
+                              - 04b42628-ab51-486c-9f2c-c9c5e551e207
+                            12:
+                              - fieldUid
+                              - 7a63fee9-946e-4cf5-90f4-8409f1ff9ba7 # Nav Link
+            4:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock

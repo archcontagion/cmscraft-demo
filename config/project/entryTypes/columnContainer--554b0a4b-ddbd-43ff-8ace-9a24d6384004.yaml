@@ -1,65 +1,59 @@
 allowLineBreaksInTitles: false
-color: null
+color: lime
 description: null
 fieldLayouts:
-  17a68bea-106d-4d73-8422-cb32f6ca9644:
+  92d51d6c-a1f6-4aa6-a0d7-3c722199bec5:
     cardThumbAlignment: end
     tabs:
       -
         elementCondition: null
         elements:
           -
-            autocapitalize: true
-            autocomplete: false
-            autocorrect: true
-            class: null
-            dateAdded: '2026-03-30T11:51:05+00:00'
-            disabled: false
-            elementCondition: null
-            id: null
-            inputType: null
-            instructions: null
-            label: null
-            max: null
-            min: null
-            name: null
-            orientation: null
-            placeholder: null
-            readonly: false
-            required: true
-            size: null
-            step: null
-            tip: null
-            title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: b1f12dbd-64e3-4378-8f61-661ecb58fddc
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            dateAdded: '2026-04-01T11:28:27+00:00'
+            dateAdded: '2026-03-31T14:26:42+00:00'
             editCondition: null
             elementCondition: null
             elementEditCondition: null
-            fieldUid: cf8392e3-23f3-4ab6-b7c0-af69d320f777 # Sections
+            fieldUid: 6421b7fb-ba73-4724-a2ba-ce7f91f86b9c # Column Container
             handle: null
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 88086c63-086f-46a4-aacf-d659bd423fd0
+            uid: c0017e27-3d32-4d20-87f0-cc3c4f9574c9
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c0557645-5edd-41cf-a028-d9c86ec5bc87
+        uid: 30fb2085-5c13-4b24-880b-0aedec8e9261
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-01T14:14:55+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 8c384374-7a9f-4f42-acfc-5d954fdf6166 # Column Span
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3e9f8103-db8a-41b5-99b0-1da3d1f34a56
+            userCondition: null
+            warning: null
+            width: 100
+        name: Design
+        uid: 61ca0cbe-3db8-4643-af6f-5c2f6c925c98
         userCondition: null
     thumbFieldKey: null
-handle: about
-hasTitleField: true
+handle: columnContainer
+hasTitleField: false
 icon: null
-name: About
+name: 'Columns Component Container'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
