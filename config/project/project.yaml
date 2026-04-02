@@ -1,4 +1,4 @@
-dateModified: 1775054707
+dateModified: 1775129781
 email:
   fromEmail: andrew.geier@w3-digitalbrands.com
   fromName: cmscraft
@@ -17,6 +17,7 @@ meta:
     0ffeee12-6676-484a-81bb-f63f1309bbef: 'Margin Top' # Margin Top
     1f590305-542f-4331-bf23-6c36dedbfe5e: cmscraft # cmscraft
     2a52cf98-9c22-469e-92f8-68b90e250f28: Summary # Summary
+    3b84d475-04dd-47d2-87cd-34280945f208: 'Footer Linklist' # Footer Linklist
     03e2146b-da29-4a1d-8d92-e30d1bb6b1b6: 'Nuxt Schema' # Nuxt Schema
     06a93449-201b-4a36-a773-247a857f3274: 'Padding Top' # Padding Top
     6bf17823-b904-409b-a803-edf64673fd2d: 'Post Content' # Post Content
@@ -28,6 +29,7 @@ meta:
     44aac75d-2e66-4b49-a4fe-560ab87622b8: 'Richtext Component' # Richtext Component
     44abf3ff-a739-403a-b0bb-a08efa0ac9c9: Post # Post
     44fe8f78-5596-45c3-b170-9766404360d9: 'Navigation Footer' # Navigation Footer
+    50ff6551-00d0-4771-acc1-effe16584eba: 'Link List' # Link List
     66b0636d-277e-4b66-a8f1-e69b63dd67a2: 'Body Content' # Body Content
     87dc3cc2-7429-4625-9de4-84a0f9dfdcf5: 'Navigation Header' # Navigation Header
     97d86509-405d-4603-a33d-cd1c23b6244f: 'Hero Component Container' # Hero Component Container
@@ -35,6 +37,7 @@ meta:
     315a062e-bf1e-41f3-b023-a4b9215dee2a: Images # Images
     554b0a4b-ddbd-43ff-8ace-9a24d6384004: 'Columns Component Container' # Columns Component Container
     704ad204-ae3c-4fd3-bc2d-3a5540b55077: Home # Home
+    812ec8c6-6814-4249-b2a9-6fa11bb91555: listTitle # listTitle
     948d320d-de3a-444d-ab16-35057a0ff09f: About # About
     1050f123-474b-4870-8754-d56d447e2fb3: 'Margin Bottom' # Margin Bottom
     6421b7fb-ba73-4724-a2ba-ce7f91f86b9c: 'Column Container' # Column Container

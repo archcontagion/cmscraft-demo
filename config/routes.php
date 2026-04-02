@@ -9,4 +9,8 @@
  * @link https://craftcms.com/docs/5.x/system/routing.html
  */
 
-return [];
+return [
+    'GET api/v1/entry' => 'api/rest/entry',
+    'GET api/v1/globals' => 'api/rest/globals',
+    'GET api/v1/types' => 'api/rest/types',
+];

@@ -1,0 +1,58 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  ed710216-31a7-4818-b52e-2cac9f2af659:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-04-02T11:36:21+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 812ec8c6-6814-4249-b2a9-6fa11bb91555 # listTitle
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9a122ca-2ff7-47bb-9169-568822eedc7d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-04-02T11:33:18+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 50ff6551-00d0-4771-acc1-effe16584eba # Link List
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fce3eee8-d60e-44f7-8902-61f26a545d96
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 20560023-e133-467e-a5fd-83fdfa116747
+        userCondition: null
+    thumbFieldKey: null
+handle: footerLinklist
+hasTitleField: false
+icon: null
+name: 'Footer Linklist'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'
